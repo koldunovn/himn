@@ -12,7 +12,7 @@ lon, lat = himn.grid2gis('./input.nc', pole_latitude=79.95, pole_longitude=-123.
 himn.grid2geojson(lon, lat, [70,100,25,38], ofile = 'remo_grid.geojson')
 
 # Convert from geojson to shapefile. Have to have working ogr2org. Alternativelly can use web service http://ogre.adc4gis.com/
-himn.geojson2shp('remo_cordex_grid_RCA4.geojson', 'remo_cordex_grid_RCA4.shp', zipit=True)
+himn.geojson2shp('remo_grid.geojson', 'remo_grid.shp', zipit=True)
 ```
 
 # WRF grid case
