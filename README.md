@@ -42,6 +42,5 @@ himn.geojson2shp('wrg_glacindia25km_grid.geojson', 'wrg_glacindia25km_grid.shp',
 - netCDF4
 - geojson 
 - numpy 
-- PyRemo
 - pandas
 - sh (https://github.com/amoffat/sh)
