@@ -3,7 +3,7 @@ import geojson
 from geojson import Feature, Point, FeatureCollection, Polygon
 import matplotlib.pylab as plt
 import numpy as np
-import PyRemo.OoPlot.Grid as gr
+import Grid as gr
 import geojson 
 import pandas as pd
 import sh
